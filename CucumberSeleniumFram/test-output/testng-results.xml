@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28254" started-at="2021-01-01T17:39:38Z" finished-at="2021-01-01T17:40:06Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testNGParallel.MyTestNGRunnerTest@2f177a4b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="28254" started-at="2021-01-01T17:39:38Z" finished-at="2021-01-01T17:40:06Z">
+      <class name="testNGParallel.MyTestNGRunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testNGParallel.MyTestNGRunnerTest@2f177a4b]" name="setUpClass" is-config="true" duration-ms="982" started-at="2021-01-01T17:39:38Z" finished-at="2021-01-01T17:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testNGParallel.MyTestNGRunnerTest@2f177a4b]" name="runScenario" duration-ms="21270" started-at="2021-01-01T17:39:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-01T17:40:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign in with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:87)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at org.junit.Assert.assertTrue(Assert.java:53)
+at testNGParallel.LoginPageSteps.iShouldSeeTheSelfcarePage(LoginPageSteps.java:45)
+at ✽.I should see the selfcare page(file:///Users/bambadia/eclipse-workspace/selenium-framework/CucumberSeleniumFram/src/test/resources/testNGParallel/LoginPage.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testNGParallel.MyTestNGRunnerTest@2f177a4b]" name="runScenario" duration-ms="17739" started-at="2021-01-01T17:39:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-01T17:39:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign in with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testNGParallel.MyTestNGRunnerTest@2f177a4b]" name="runScenario" duration-ms="20929" started-at="2021-01-01T17:39:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-01T17:40:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accounts section count"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Account Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testNGParallel.MyTestNGRunnerTest@2f177a4b]" name="runScenario" duration-ms="18937" started-at="2021-01-01T17:39:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-01T17:39:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign in with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testNGParallel.MyTestNGRunnerTest@2f177a4b]" name="runScenario" duration-ms="19152" started-at="2021-01-01T17:39:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-01T17:39:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign in with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testNGParallel.MyTestNGRunnerTest@2f177a4b]" name="runScenario" duration-ms="20221" started-at="2021-01-01T17:39:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-01T17:39:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accounts page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Account Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testNGParallel.MyTestNGRunnerTest@2f177a4b]" name="tearDownClass" is-config="true" duration-ms="5958" started-at="2021-01-01T17:40:00Z" finished-at="2021-01-01T17:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testNGParallel.MyTestNGRunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
